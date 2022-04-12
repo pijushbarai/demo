@@ -19,7 +19,10 @@
 <body>
 
     <div class="row">
-        <div class="left">
+        <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
+                                               signup start here
+        ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="left "id="signup">
             <div class="logo">
                 <img src="image/logo.svg" alt="icon" class="icon_design">
                 <p style="font-family: raleway;">lenden.</p>
@@ -52,17 +55,57 @@
                 <button class="" id=""> Create account</button>
             </div>
             <p class="sign_in_information">Already have an account?<a style="text-decoration: none;" href=""
-                id="loginbtn">Login</a> </p>
+                    id="loginbtn">Login</a> </p>
         </div>
         <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
                                                signup end here
         ////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-        <div class="left">
-            
+
+
+
+
+
+
+        <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
+                                               login start here
+        ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <div class="left "id = "login">
+            <div class="logo">
+                <img src="image/logo.svg" alt="icon" class="icon_design">
+                <p style="font-family: raleway;">lenden.</p>
+            </div>
+            <div class="login-text">
+                <p>Sign up.</p>
+                <p class=" text-muted">Login with your data that you entered during regestration</p>
+            </div>
+            <div class="loginForm">
+                <form action="/action_page.php" method="get">
+                    <label for="e-mail">Your e-mail</label><br>
+                    <input class="input_form" type="text" id="e-mail" name="e-mail" placeholder="name@example.com"><br>
+                    <label for="password">Password</label><br>
+                    <input class="input_form" style="margin-bottom: 18px;" type="password" id="password" name="password"
+                        placeholder="At least 8 characters">
+                </form>
+            </div>
+            <div class="checkBox">
+                <input type="checkbox" id="termcheck" name="term&condition" value="accepted" class="">
+                <p class="term_condition_text text-muted">Keep me logged in </p>
+
+            </div>
+            <div class="loginBtn">
+                <button class="" id=""> Login</button>
+            </div>
+
+            <p>Dont have an account?<a href="" id="signUpBtn">Sign up</a></p>
+            <p class="forget_pass" id="forgetPasswordBtn">Forget password?</p>
+
         </div>
 
-
+        <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
+                                               login end here
+        ////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
         <div class="right">
             <h1>everyone</h1>

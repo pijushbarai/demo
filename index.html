@@ -34,11 +34,11 @@
             <div class="signUpForm">
                 <form action="/action_page.php" method="get">
                     <label for="name">Your name</label><br>
-                    <input class="input_form" type="text" id="name" name="name" placeholder="Full-name"><br>
+                    <input class="input_form" type="text" id="signupName" name="name" placeholder="Full-name"><br>
                     <label for="e-mail">Your e-mail</label><br>
-                    <input class="input_form" type="text" id="e-mail" name="e-mail" placeholder="name@example.com"><br>
-                    <label for="password" id="passid-text">Password</label><br>
-                    <input class="input_form" style="margin-bottom: 18px;" type="password" id="password" name="password"
+                    <input class="input_form" type="text" id="signupEmail" name="e-mail" placeholder="name@example.com"><br>
+                    <label for="password" id="">Password</label><br>
+                    <input class="input_form" style="margin-bottom: 18px;" type="password" id="signupPassword" name="password"
                         placeholder="At least 8 characters">
 
                 </form>
@@ -55,7 +55,7 @@
                 <button class="" id=""> Create account</button>
             </div>
             <p class="sign_in_information">Already have an account?<a style="text-decoration: none;" href=""
-                    id="loginbtn">Login</a> </p>
+                    id="loginInSignup">Login</a> </p>
         </div>
         <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
                                                signup end here
@@ -83,9 +83,9 @@
             <div class="loginForm">
                 <form action="/action_page.php" method="get">
                     <label for="e-mail">Your e-mail</label><br>
-                    <input class="input_form" type="text" id="e-mail" name="e-mail" placeholder="name@example.com"><br>
+                    <input class="input_form" type="text" id="loginEmail" name="e-mail" placeholder="name@example.com"><br>
                     <label for="password">Password</label><br>
-                    <input class="input_form" style="margin-bottom: 18px;" type="password" id="password" name="password"
+                    <input class="input_form" style="margin-bottom: 18px;" type="password" id="loginPassword" name="password"
                         placeholder="At least 8 characters">
                 </form>
             </div>
@@ -98,7 +98,7 @@
                 <button class="" id=""> Login</button>
             </div>
 
-            <p>Dont have an account?<a href="" id="signUpBtn">Sign up</a></p>
+            <p>Dont have an account?<a href="" id="signupInLogin">Sign up</a></p>
             <p class="forget_pass" id="forgetPasswordBtn">Forget password?</p>
 
         </div>

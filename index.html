@@ -22,39 +22,44 @@
         <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
                                                signup start here
         ////////////////////////////////////////////////////////////////////////////////////////////////// -->
-        <div class="left "id="signup">
-            <div class="logo">
-                <img src="image/logo.svg" alt="icon" class="icon_design">
-                <p style="font-family: raleway;">lenden.</p>
-            </div>
-            <div class="signup-text">
-                <p>Sign up.</p>
-                <p class=" text-muted">Give us some of your information to get free access to lenden </p>
-            </div>
-            <div class="signUpForm">
-                <form action="/action_page.php" method="get">
-                    <label for="name">Your name</label><br>
-                    <input class="input_form" type="text" id="signupName" name="name" placeholder="Full-name"><br>
-                    <label for="e-mail">Your e-mail</label><br>
-                    <input class="input_form" type="text" id="signupEmail" name="e-mail" placeholder="name@example.com"><br>
-                    <label for="password" id="">Password</label><br>
-                    <input class="input_form" style="margin-bottom: 18px;" type="password" id="signupPassword" name="password"
-                        placeholder="At least 8 characters">
+        <div class="left " id="signup">
+            <div class="lProperty">
 
-                </form>
+                <div class="icon"><img src="image/logo.svg" alt="icon" class="icon_design"></div>
+                <div class="title">
+                    <p style="font-family: raleway; " class="">lenden.</p>
+                </div>
+
+                <div class="signup-text">
+                    <p>Sign up.</p>
+                    <p class=" text-muted">Give us some of your information to get free access to lenden </p>
+                </div>
+                <div class="signUpForm">
+                    <form action="/action_page.php" method="get">
+                        <label for="name">Your name</label><br>
+                        <input class="input_form" type="text" id="signupName" name="name" placeholder="Full-name"><br>
+                        <label for="e-mail">Your e-mail</label><br>
+                        <input class="input_form" type="text" id="signupEmail" name="e-mail"
+                            placeholder="name@example.com"><br>
+                        <label for="password" id="">Password</label><br>
+                        <input class="input_form" style="margin-bottom: 18px;" type="password" id="signupPassword"
+                            name="password" placeholder="At least 8 characters">
+
+                    </form>
+                </div>
+                <div class="bar">
+                    <p>-----</p>
+                </div>
+                <div class="checkBox">
+                    <input type="checkbox" id="termcheck" name="term&condition" value="accepted" class="">
+                    <p class="text-muted">By creating an account you are aggree to the <a href=""> terms of use
+                        </a>and our <a href="">privacy policy.</a> </p>
+                </div>
+                <div class="createAccountBtn">
+                    <button class="" id="createAccountBtn"> Create account</button>
+                </div>
+                <p class="sign_in_information">Already have an account?<button id="loginInSignup"> log in</button></p>
             </div>
-            <div class="bar">
-                <p>-----</p>
-            </div>
-            <div class="checkBox">
-                <input type="checkbox" id="termcheck" name="term&condition" value="accepted" class="">
-                <p class="text-muted">By creating an account you are aggree to the <a href=""> terms of use
-                    </a>and our <a href="">privacy policy.</a> </p>
-            </div>
-            <div class="createAccountBtn">
-                <button class="" id=""> Create account</button>
-            </div>
-            <p class="sign_in_information">Already have an account?<button id="loginInSignup"> log in</button></p>
         </div>
         <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
                                                signup end here
@@ -70,7 +75,7 @@
                                                login start here
         ////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-        <div class="left "id = "login">
+        <div class="left " id="login">
             <div class="logo">
                 <img src="image/logo.svg" alt="icon" class="icon_design">
                 <p style="font-family: raleway;">lenden.</p>
@@ -82,10 +87,11 @@
             <div class="loginForm">
                 <form action="/action_page.php" method="get">
                     <label for="e-mail">Your e-mail</label><br>
-                    <input class="input_form" type="text" id="loginEmail" name="e-mail" placeholder="name@example.com"><br>
+                    <input class="input_form" type="text" id="loginEmail" name="e-mail"
+                        placeholder="name@example.com"><br>
                     <label for="password">Password</label><br>
-                    <input class="input_form" style="margin-bottom: 18px;" type="password" id="loginPassword" name="password"
-                        placeholder="At least 8 characters">
+                    <input class="input_form" style="margin-bottom: 18px;" type="password" id="loginPassword"
+                        name="password" placeholder="At least 8 characters">
                 </form>
             </div>
             <div class="checkBox">
@@ -94,7 +100,7 @@
 
             </div>
             <div class="loginBtn">
-                <button class="" id=""> Log in</button>
+                <button class="" id="loginBtnInLogInPage"> Log in</button>
             </div>
 
             <p>Dont have an account?<button id="signupInLogin">Sign up</button></p>
@@ -107,19 +113,51 @@
         ////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
         <div class="right">
-            <h1>everyone</h1>
+            <div class="grid1">
+                <img src="image/grid.svg" alt="images">
+
+            </div>
+
+            <div class="grid2">
+                <img src="image/grid.svg" alt="images">
+            </div>
+            <!-- carousel design start here -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <h5>Borrowers in check</h5>
+                        <p class="text-muted">See Borrowers list, amount, chat with</br> them, receive payment</p>
+                    </div>
+                    <div class="carousel-item">
+
+                        <h5>Borrowers in check 2</h5>
+                        <p class="text-muted">See Borrowers list, amount, chat with</br> them, receive payment</p>
+                    </div>
+                    <div class="carousel-item">
+
+                        <h5>Borrowers in check33</h5>
+                        <p class="text-muted">See Borrowers list, amount, chat with</br> them, receive payment</p>
+                    </div>
+                    <div class="carousel-item">
+
+                        <h5>Borrowers in check44</h5>
+                        <p class="text-muted">See Borrowers list, amount, chat with</br> them, receive payment</p>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
 

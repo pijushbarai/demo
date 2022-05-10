@@ -6,11 +6,21 @@
                                              left left start                                                                
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .left {
-    background-color: #f2ecfa;
-    max-width: 45.06%;
+    background-color: #FFFFFF;
+    max-width: 39.6875%;
 }
 
-#signup {}
+#signup {
+    /* padding-left: 16.79790026%; */
+    /* padding-left: 128px; */
+
+}
+
+.lProperty {
+    padding-left: 16.79790026%;
+    padding-right: 19.81627297%;
+    margin-top: 65.14px;
+}
 
 #login {
     display: none;
@@ -28,12 +38,88 @@
     background: none;
 }
 
+/* /////////////         INNER HTML DESIGN START       /////////////// */
+.icon_design {
+    height: 28.62px;
+    width: 28.14px;
+    float: left;
+}
+.icon{
+    float: left;
+    margin-right: 100px;
+}
+.title{
+    width: 101px;
+    height: 33px;
+    color: #5622A7;
+    margin-left:30px;
+    display: inline;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                             LEFT END                                                                
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
 
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                           Right Right start                                                                
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .right {
-    background-color: #ace957;
-    max-width: 54.93%;
+    background-color: #5622A7;
+    max-width: 60.3125%;
+    max-height: 100%;
+}
+
+.grid1 {
+    margin-top: 95px;
+    margin-left: 62.19974716%;
+    height: auto;
+    width: 23.8938053%;
+}
+
+.grid2 {
+    margin-top: 118px;
+    width: 23.8938053%;
+    height: auto;
+    margin-left: 20.22756005%;
+}
+
+/*////////////////////////////////////////////////////////////////
+                 CAROUSEL ITEM DESIGN START
+ /////////////////////////////////////////////////////////////// */
+
+.carousel-item {
+    background-color: none;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+.carousel-item p {
+    color: whitesmoke !important;
+    line-height: 16px;
+    padding-bottom: 20px;
+
+
+}
+
+.carousel-item h5 {
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+.carousel-indicators button {
+    height: 8px !important;
+    width: 8px !important;
+    margin-right: 14px !important;
+    margin: 0px;
+    border-radius: 50%;
 }

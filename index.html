@@ -34,33 +34,33 @@
                     <h3 >Sign up.</h3>
                     <p class=" text-muted latofont mt-2">Give us some of your information to get free access to lenden </p>
                 </div>
-                <div class="signUpForm latofont">
+                <div class="signUpForm latofont mt-4">
                     <form action="/action_page.php" method="get">
                         <label for="name" class="text-muted" style="font-weight: 700;">Your name</label><br>
-                        <input class="input_form mt-1" style ="font-weight: 100;"type="text" id="signupName" name="name" placeholder="Full-name"><br>
+                        <input class="input_form mt-1" type="text" id="signupName" name="name" placeholder="Full-name"><br>
                       
-                        <label for="e-mail" class="text-muted mt-3" style="font-weight: 700;">Your e-mail</label><br>
+                        <label for="e-mail" class="text-muted mt-4" style="font-weight: 700;">Your e-mail</label><br>
                         <input class="input_form  mt-1" type="text" id="signupEmail" name="e-mail"
                             placeholder="name@example.com"><br>
 
-                        <label for="password" id=""class="text-muted mt-3" style="font-weight: 700;">Password</label><br>
+                        <label for="password" id=""class="text-muted mt-4" style="font-weight: 700;">Password</label><br>
                         <input class="input_form  mt-1"  style="margin-bottom: 18px;" type="password" id="signupPassword"
                             name="password" placeholder="At least 8 characters">
 
                     </form>
                 </div>
-                <div class="bar">
-                    <p>-----</p>
+                <div class="bar mb-4">
+                    <img src="image/hbar.svg" alt="horizontal bar"class = "svgDesign">
                 </div>
-                <div class="checkBox">
+                <div class="checkBox mb-4">
                     <input type="checkbox" id="termcheck" name="term&condition" value="accepted" class="">
                     <p class="text-muted">By creating an account you are aggree to the <a href=""> terms of use
-                        </a>and our <a href="">privacy policy.</a> </p>
+                        </a>and our <a href="">privacy policy.</a></p>
                 </div>
-                <div class="createAccountBtn">
-                    <button class="" id="createAccountBtn"> Create account</button>
+                <div class="createAccountDiv mb-4">
+                    <button class="latofont btn" id="createAccountBtn"> Create account</button>
                 </div>
-                <p class="sign_in_information">Already have an account?<button id="loginInSignup"> log in</button></p>
+                <p class="sign_in_information text-center latofont">Already have an account?<button class ="" id="loginInSignup"> &nbsp;  Log in</button></p>
             </div>
         </div>
         <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -78,35 +78,40 @@
         ////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
         <div class="left " id="login">
-            <div class="logo">
-                <img src="image/logo.svg" alt="icon" class="icon_design">
-                <p style="font-family: raleway;">lenden.</p>
+           <div class="lProperty">
+            <div class="icon d-inline-block"><img src="image/logo.svg" alt="icon" class="icon_design"></div>
+            <div class="title d-inline-block  ms-2">
+                <p style="font-family: raleway; " class="">lenden.</p>
             </div>
-            <div class="login-text">
-                <p>log in.</p>
+            <div class="login-text  mt-5 latofont">
+                <h3>log in.</h3>
                 <p class=" text-muted">Login with your data that you entered during regestration</p>
             </div>
-            <div class="loginForm">
+            <div class="loginForm latofont mt-4">
                 <form action="/action_page.php" method="get">
-                    <label for="e-mail">Your e-mail</label><br>
-                    <input class="input_form" type="text" id="loginEmail" name="e-mail"
+                    <label for="e-mail" class="text-muted" style="font-weight: 700;">Your e-mail</label><br>
+                    <input class="input_form mt-1" type="text" id="loginEmail" name="e-mail"
                         placeholder="name@example.com"><br>
-                    <label for="password">Password</label><br>
-                    <input class="input_form" style="margin-bottom: 18px;" type="password" id="loginPassword"
+                    <label for="password" class="text-muted mt-4" style="font-weight: 700;">Password</label><br>
+                    <input class="input_form mt-1" style="margin-bottom: 18px;" type="password" id="loginPassword"
                         name="password" placeholder="At least 8 characters">
                 </form>
             </div>
-            <div class="checkBox">
+            <div class="checkBox mt-4 mb-4">
                 <input type="checkbox" id="termcheck" name="term&condition" value="accepted" class="">
                 <p class="term_condition_text text-muted">Keep me logged in </p>
 
             </div>
-            <div class="loginBtn">
-                <button class="" id="loginBtnInLogInPage"> Log in</button>
+            <div class="loginBtn mb-4 text-center">
+                <button class="latofont btn" id="loginBtnInLogInPage"> Log in</button>
             </div>
 
-            <p>Dont have an account?<button id="signupInLogin">Sign up</button></p>
-            <p class="forget_pass" id="forgetPasswordBtn">Forget password?</p>
+            <div class="loginFooter text-center">
+                <p class="text-center text-muted latofont">Dont have an account?<button id="signupInLogin"> &nbsp;Sign up</button></p>
+                <a href=""text-center>Forget Password?</a>
+            </div>
+
+           </div>
 
         </div>
 
